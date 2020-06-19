@@ -37,8 +37,8 @@ header {
     padding:6vh 4vw;
     position:fixed;
     font-weight:bold;
-    background:transparent;
-    color:#fff;
+    background-color:black;
+    color:black;
     transition:0.4s ease-in-out;
     z-index:2;
 }
@@ -51,6 +51,26 @@ header table {
 #navigation {
     width:80%;
 }
+/*.topnav {
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+}
+.topnav a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.topnav a:hover {
+  color: #696969;
+}
+.topnav a.logo {
+    float: left;
+    font-size: 20px;
+}*/
 #magnify {
     width:100vw;
     height:100vh;
@@ -70,7 +90,7 @@ header table {
     transition:0.4s ease-in-out;
 }
 #magnify h1:hover{
-    color:rgb(255, 44, 90);
+    color:rgb(0, 0, 128);
     cursor:pointer;
 }
 #img_here {
@@ -81,16 +101,15 @@ header table {
     margin:0px auto;
 }
 #logo {
-    font-size:24px;
+    font-size:25px;
     color:rgb(0, 0, 128);
 }
 #navigation {
     text-align:right;
 }
 #navigation a {
-    color:inherit;
+    color:white;
     text-decoration:none;
-    
     padding:5px 15px;
     border-bottom:2px solid transparent;
     margin-left:4vw;
@@ -164,7 +183,7 @@ header table {
 }
 #rightImage {
     width:100%;
-    height:95vh;
+    height:80vh;
     background:linear-gradient(0deg,rgba(0, 0, 128, 0.4),rgba(0, 0, 128, 0.4)),url(frontpagesolo3.jpeg) center center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -376,7 +395,7 @@ button:focus {
     }
     header {
         width:96vw;
-        background:#fff;
+        background:black;
         padding:4vh 2vw;
         position:absolute;
     }
