@@ -18,31 +18,28 @@
         <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
         <div id="img_here"></div>
     </div>
-    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
-        <table>
-            <tr id = "navbar">
-                <td id="logo">Ishaan Chandra</td>
-                <td id="navigation">
-                    <a href="#work">Home</a>
-                    <a href="#bio">About</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
-                </td>
-            </tr>
-        </table>
-<!--        <div class="topnav">
-            <a class=logo> Ishaan Chandra </a>
-            <a href="#contact">Contact</a>
-            <a href="#projects">Projects</a>
-            <a href="#about">About</a>
-            <a href="#home">Home</a>
-        </div>-->
-    </header>
+    <div id="home">
+        <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+            <table>
+                <tr id = "navbar">
+                    <td id="logo">Ishaan Chandra</td>
+                    <td id="navigation">
+                        <a href="#home">Home</a>
+                        <a href="#bio">About</a>
+                        <a href="#projects">Projects</a>
+<!--                        <a href="#contact">Contact</a>-->
+                    </td>
+                </tr>
+            </table>
+        </header>
+    </div>
     <table id="top_part">
         <tr>
             <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
                 <h1>I am a student at the University of Wisconsin-Madison studying Computer Science.</h1>
-                <button class="btn_one">Resume</button><br>
+                <a href="IshaanChandraResume.pdf" target="_blank">
+                    <button class="btn_one">Resume</button><br>
+                </a>
                 <table>
                     <tr>
                         <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.linkedin.com/in/ishaan-chandra-87a004a8" target="_blank"><i class="fab fa-linkedin"></i></a></td>
@@ -58,29 +55,54 @@
             <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
         </tr>
     </table>
-    <div id="work">
-        <h1>work</h1>
-        <div id="photos">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547922657-b370d1687eb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549375463-8cbc18ca3f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549366021-9f761d450615?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549309019-a1d77aeae74f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547149666-769b42053e67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547950515-e652d0f50b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1545342084-d03fe58ea023?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80">
-        </div>
-    </div>
     <div id="bio">
-        <h1>about</h1>
+        <h1>About</h1>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Hello! I'm Ishaan, and I am a freshman at the University of Wisconsin-Madison studying Computer Science. I have experience in Java, Swift, HTML, CSS, and JavaScript. I enjoy creating projects that are live on the internet which people can use.
         </p>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            In High School, I was a part of the Business and Entrepreneurship department and was involved with DECA and TEDxHarkerSchool. I also was the Co-President of KidzKode, which is a six-week course that teaches children the key fundamental pieces about the Java language. Our goal of the program is not only to teach the basics of Java but also to spark their interest in programming and get early exposure to programming. In my free time, I like to work out, play basketball, and watch netflix.
         </p>
     </div>
-    <div id="contact">
-        <h1>contact</h1>
+    <div id="projects">
+        <h1>Projects</h1>
+        <!--<div id="photos">
+            <div id="chorify">
+                <img src="chorifylogo.png">
+                <h2>Chorify</h2>
+            </div>
+        </div>-->
+            
+        <div class="row">
+            <div class="column">
+                <div class="projpic">
+                    <a href="https://apps.apple.com/us/app/chorify-chore-organizer/id1423346102" target="_blank">
+                        <img src="chorifylogobox.jpeg" alt="Chorify" style="width:100%">
+                    </a>
+                        <div class="container">
+                            <h2>Chorify</h2>
+                            <p>A mobile chore organizer that allows you to randomly assign tasks and chores to your roommates for a clean home.</p>
+                        </div>
+                    
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="projpic">
+                    <a href="shineposter.pdf" target="_blank">
+                        <img src="naorobot.jpeg" alt="Nao" style="width:100%">
+                    </a>
+                    <div class="container">
+                        <h2>NAO Robot</h2>
+                        <p>A project that researches trust in multi-party robotics to help solve middle school conflicts in the Interaction Lab.</p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+<!--    <div id="contact">
+        <h1>Contact</h1>
             <table>
                 <tr>
                     <td>
@@ -126,10 +148,8 @@
                     </td>
                 </tr>
             </table>
-    </div>
-    <div id="footer">
-        made on earth by a human <br> <a href="https://imfunniee.github.io">imfunniee</a>
-    </div>
+    </div>-->
+
     <script src="index.js" type="text/javascript"></script>
 </body>
 </html>

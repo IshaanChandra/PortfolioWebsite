@@ -34,7 +34,7 @@ body {
 }
 header {
     width:92vw;
-    padding:6vh 4vw;
+    padding:3vh 4vw;
     position:fixed;
     font-weight:bold;
     background-color:black;
@@ -51,26 +51,6 @@ header table {
 #navigation {
     width:80%;
 }
-/*.topnav {
-    overflow: hidden;
-    background-color: black;
-    width: 100%;
-}
-.topnav a{
-    float: right;
-    color: white;
-    text-align: center;
-    padding: 14px 25px;
-    text-decoration: none;
-    font-size: 18px;
-}
-.topnav a:hover {
-  color: #696969;
-}
-.topnav a.logo {
-    float: left;
-    font-size: 20px;
-}*/
 #magnify {
     width:100vw;
     height:100vh;
@@ -102,13 +82,13 @@ header table {
 }
 #logo {
     font-size:25px;
-    color:rgb(0, 0, 128);
+    color: white;
 }
 #navigation {
     text-align:right;
 }
 #navigation a {
-    color:white;
+    color: white;
     text-decoration:none;
     padding:5px 15px;
     border-bottom:2px solid transparent;
@@ -184,19 +164,24 @@ header table {
 #rightImage {
     width:100%;
     height:80vh;
-    background:linear-gradient(0deg,rgba(0, 0, 128, 0.4),rgba(0, 0, 128, 0.4)),url(frontpagesolo3.jpeg) center center;
+    background: url(frontpagesolo3.jpeg);
+    background-position: center;
+/*
     background-size:cover;
+*/
+    background-size: cover;
     background-repeat:no-repeat;
+    position: relative;
 }
-#work {
+#projects {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
 }
-#work h1 {
+#projects h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(255, 44, 90);
-    width:6%;
+    border-bottom:4px solid rgb(0, 0, 128);
+    width:9%;
 }
 #photos {
     width:100%;
@@ -204,6 +189,73 @@ header table {
     column-gap:4%;
     z-index:1;
     transition:0.4s ease-in-out;
+}
+#chorify {
+    display: block;
+}
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.row {
+    height: 50%;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.projpic {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container h2 {
+    font-weight: bold;
+    color: rgb(0, 0, 128);
+}
+.container p {
+    color: #88898c;
+}
+.projpic:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.projgit {
+    color:rgb(0, 0, 128);
+    font-size:23px;
+    padding:12px 17px;
+    border-radius:50%;
+    background:transparent;
+    font-weight:bold;
+    margin:0px 8px;
+}
+.projgit:hover { 
+    cursor: pointer;
+    color:#fff;
+    background:rgb(0, 0, 128);
+    box-shadow:0px 7px 25px rgba(0, 0, 128,0.7);
 }
 #photos img {
     width:100%;
@@ -222,7 +274,7 @@ header table {
 }
 #bio h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(255, 44, 90);
+    border-bottom:4px solid rgb(0, 0, 128);
     width:8%;
 }
 #contact {
@@ -231,7 +283,7 @@ header table {
 }
 #contact h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(255, 44, 90);
+    border-bottom:4px solid rgb(0, 0, 128);
     width:10%;
 }
 #contact table {
@@ -384,7 +436,7 @@ button:focus {
     #contact form textarea {
         width:90%;
     }
-    #work h1 {
+    #projects h1 {
         width:19%;
     }
     #bio h1 {
