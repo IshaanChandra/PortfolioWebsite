@@ -309,7 +309,7 @@ header table {
     margin:20px 1%;
     background:transparent;
     border:0px;
-    border-bottom:3px solid rgba(255, 44, 90,0.5);
+    border-bottom:3px solid rgba(0, 0, 128,0.5);
     padding:8px 10px;
     font-family: 'Poppins', sans-serif;
     font-size:18px;
@@ -322,7 +322,7 @@ header table {
     margin:20px 1%;
     padding:8px 10px;
     border:0px;
-    border-bottom:3px solid rgba(255, 44, 90,0.5);
+    border-bottom:3px solid rgba(0, 0, 128,0.5);
     padding:8px 10px;
     font-family: 'Poppins', sans-serif;
     font-size:18px;
@@ -334,11 +334,11 @@ header table {
 }
 #contact form input:focus {
     outline:none;
-    border-bottom:3px solid rgba(255, 44, 90,1);
+    border-bottom:3px solid rgba(0, 0, 128,1);
 }
 #contact form textarea:focus {
     outline:none;
-    border-bottom:3px solid rgba(255, 44, 90,1);
+    border-bottom:3px solid rgba(0, 0, 128,1);
 }
 #address {
     position:relative;
@@ -352,7 +352,7 @@ header table {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(255, 44, 90);
+    color:rgb(0, 0, 128);
     text-decoration:none;
 }
 ::placeholder {
@@ -412,15 +412,15 @@ button:focus {
         text-align:center;
     }
     .btn_one {
-    padding:6px 30px;
-    width:60%;
-    margin:4vh auto;
-    box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
-    background:rgb(255, 44, 90);
-    color:#fff;
+        padding:6px 30px;
+        width:60%;
+        margin:4vh auto;
+/*        box-shadow:0px 10px 20px rgba(0, 0, 128, 0.8);*/
+        background:#fff;
+        color:rgb(0,0,128);
     }
     .btn_one:hover {
-        box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
+        box-shadow:0px 10px 40px rgba(0, 0, 128, 0.8);
         cursor:pointer;
     }
     #contact table tr td {
