@@ -34,7 +34,7 @@ body {
 }
 header {
     width:92vw;
-    padding:1.5vh 4vw;
+    padding:1vh 4vw;
     position:fixed;
     font-weight:bold;
     background-color:black;
@@ -448,7 +448,7 @@ button:focus {
     header {
         width:96vw;
         background:black;
-        padding:1.5vh 2vw;
+        padding:1vh 2vw;
         position:absolute;
     }
     #header table tr td {
