@@ -7,7 +7,7 @@ window.onscroll = function(){
             $("#header").css("background","#000");
             $("#header").css("color","#fff");
             $("#header").css("box-shadow","0px 0px 2px rgba(0,0,0,0.09)");
-            $("#header").css("padding","2vh 4vw");
+            $("#header").css("padding","1.5vh 4vw");
             $("#navigation a").hover(function(){
                 $(this).css("border-bottom","2px solid #fff)");
             },function(){
@@ -19,7 +19,7 @@ window.onscroll = function(){
             $("#header").css("background","#000");
             $("#header").css("color","#fff");
             $("#header").css("box-shadow","0px 0px 0px rgba(0,0,0,0)");
-            $("#header").css("padding","3vh 4vw");
+            $("#header").css("padding","1.5vh 4vw");
             $("#navigation a").hover(function(){
                 $(this).css("border-bottom","2px solid #fff");
             },function(){
