@@ -173,6 +173,16 @@ header table {
     background-repeat:no-repeat;
     position: relative;
 }
+#internships {
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#internships h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(0, 0, 128);
+    width:13%;
+}
 #projects {
     width:92vw;
     padding:6vh 4vw;
